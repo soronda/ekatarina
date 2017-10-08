@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.css">
+  	<style>body="color:green"</style> 
+  	<title>Djurdjina</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head> 
+
+
+  <body>
+  	
+  	
+    <%= yield %>
+  </body>
+  <footer>
+  <div class="container">
+    Rails Girls <%= Time.now.year %>
+  </div>
+</footer>
+</html>

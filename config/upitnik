@@ -1,0 +1,2 @@
+puts "ukucajte broj"
+a1=gets.chomp 
